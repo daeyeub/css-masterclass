@@ -1,0 +1,112 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  text-transform: uppercase;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+.search-bar {
+  width: 30%;
+  border: 1.5px solid rgb(91, 89, 89);
+  height: 70%;
+  border-radius: 10%;
+}
+.empty-box {
+  width: 20%;
+}
+.fa-solid {
+  width: 20%;
+  font-size: 40px;
+}
+.terminal {
+  background-color: whitesmoke;
+  width: 75%;
+  height: 90%;
+  box-sizing: border-box;
+}
+.header {
+  background-color: gray;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.grid {
+  display: grid;
+  width: 100%;
+  height: 95%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.black {
+  background-color: black;
+  color: white;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 10px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.red {
+  background-color: #ff1502;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  padding: 20px 10px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.blue {
+  background-color: #6c01ff;
+  grid-column: 2/3;
+  grid-row: 1/1;
+  padding: 10px;
+  font-size: 25px;
+}
+.white {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 10px;
+  font-size: 25px;
+}
+.yellow {
+  background-color: #ffc904;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  padding: 10px;
+  font-size: 25px;
+}
+.speakers {
+  grid-row: 1/4;
+  padding: 10px;
+}
+.artists {
+  grid-row: 1/4;
+  padding: 10px;
+}
+.subtitle {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+li {
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+.korea {
+  background-color: #6c01ff;
+  width: 10vw;
+}
