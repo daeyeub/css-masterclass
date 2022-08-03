@@ -1,0 +1,117 @@
+body {
+  background-color: #efe754;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.container {
+  width: 800px;
+  height: 900px;
+  background-color: tomato;
+  padding: 0.3%;
+  display: grid;
+  grid-gap: 0.5%;
+  grid-template-columns: repeat(25, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+.header {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  background-color: white;
+  color: tomato;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.footer {
+  background-color: white;
+  grid-column: 1/-1;
+  grid-row: 20/21;
+  color: tomato;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.tomato-sidebar {
+  grid-row: 2/12;
+  grid-column: 1/2;
+  writing-mode: vertical-rl;
+  color: white;
+  text-orientation: upright;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-up {
+  background-color: white;
+  grid-column: 1/2;
+  grid-row: 12/17;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+}
+.left-down {
+  background-color: white;
+  grid-column: 1/2;
+  grid-row: 17/20;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: tomato;
+}
+.body {
+  background-color: white;
+  grid-column: 2/25;
+  grid-row: 2/20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.body img {
+  width: 50%;
+  height: 100%;
+}
+.image-text {
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  top: 30%;
+  right: 38%;
+  color: white;
+  font-size: 150px;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+.right-up {
+  grid-row: 2/11;
+  background-color: #46ab4f;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-down {
+  grid-row: 11/20;
+  background-color: #46ab4f;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
